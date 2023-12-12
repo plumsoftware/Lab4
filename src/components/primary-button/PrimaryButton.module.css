@@ -1,0 +1,13 @@
+.primaryButton{
+    border-radius: 55px;
+    background: var(--button-color);
+    flex-shrink: 0;
+    padding: 1px 40px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--on-primary-color);
+}

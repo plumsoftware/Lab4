@@ -14,6 +14,8 @@
   --on-secondary-text-color: rgba(255, 255, 255, 0.9);
   --dot-color: rgba(91, 155, 243, 1);
   --unavailable-arrow-color:rgba(69, 143, 246, 1);
+  --button-color: #458FF6;
+  --primary-color-hover: #646cff;
 
 
 
@@ -53,6 +55,16 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -60,12 +72,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--button-color);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--primary-color-hover);
 }
 button:focus,
 button:focus-visible {
@@ -74,13 +86,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --primary-text-color: #213547;
+    --main-bg-color: #fff;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    --button-color: rgba(69, 143, 246, 1);
   }
 }

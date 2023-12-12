@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import classes from './App.module.css'
+import PrimaryButton from './components/primary-button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <PrimaryButton text="Click me" />
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
