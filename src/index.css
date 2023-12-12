@@ -10,13 +10,17 @@
   --secondary-text-color: rgba(125, 121, 135, 1);
   --main-bg-color: rgba(255, 255, 255, 1);
   --primary-color: rgba(255, 255, 255, 1);
+  
   --on-primary-color:rgba(255, 255, 255, 1);
   --on-secondary-text-color: rgba(255, 255, 255, 0.9);
+
   --dot-color: rgba(91, 155, 243, 1);
   --unavailable-arrow-color:rgba(69, 143, 246, 1);
   --button-color: #458FF6;
   --primary-color-hover: #646cff;
 
+  --primary-top-nav-color: rgba(31, 21, 52, 1);
+  --primary-unavailable-top-nav-color: rgba(31, 21, 52, 0.5);
 
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

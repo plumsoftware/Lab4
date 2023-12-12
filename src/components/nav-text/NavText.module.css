@@ -1,0 +1,17 @@
+h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0 10px;
+    color: var(--primary-top-nav-color);
+}
+      
+h3:hover {
+    color: var(--primary-color-hover);
+}
+  
+h3[enabled="false"] {
+    color: var(--primary-unavailable-top-nav-color);
+}

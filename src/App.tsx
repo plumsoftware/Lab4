@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import classes from './App.module.css'
 import PrimaryButton from './components/primary-button'
+import TopNav from './components/top_nav/TopNav'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function App() {
           className={clsx(classes.logo, classes.react)} 
           alt="React logo" />
         </a>
+
+        <TopNav arr={['1', '2', '3', '4', '5']}></TopNav>
       </div>
       <h1>Vite + React</h1>
       <div className={classes.card}>
