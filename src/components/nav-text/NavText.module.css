@@ -18,8 +18,8 @@ button:hover {
     border-color: var(--primary-color-hover);
     background-color: var(--primary-color-hover);
     color: var(--primary-text-color);
-  }
-  button:focus,
+}
+  /* button:focus,
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
-  }
+  } */
