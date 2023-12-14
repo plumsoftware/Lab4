@@ -8,6 +8,7 @@ interface NavTextProps {
 
 const NavText: React.FC<NavTextProps> = ({ _enabled, text }) => {  
     const primaryTopNavColor = '#1F1534';
+    const transparent = "#00FFF";
     const primaryUnavailableTopNavColor = 'rgba(31, 21, 52, 0.5)';
   
     const textStyle = {
@@ -16,7 +17,7 @@ const NavText: React.FC<NavTextProps> = ({ _enabled, text }) => {
     };
   
     return (
-        <h3 style={textStyle} className={classes.h3}>{text}</h3>
+        <button style={textStyle} className={classes.navButton}>{text}</button>
     );
 };
 

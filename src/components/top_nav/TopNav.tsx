@@ -8,12 +8,12 @@ interface TopNavProps {
 
 const TopNav: React.FC<TopNavProps> = ({arr}) => { 
     return ( 
-        <div className={classes.TopNav}> 
-            <NavText _enabled={true} text='Home'></NavText>
-            <NavText _enabled={false} text='Find a doctor'></NavText>
-            <NavText _enabled={false} text='Apps'></NavText>
-            <NavText _enabled={false} text='Testimonials'></NavText>
-            <NavText _enabled={false} text='About us'></NavText>
+        <div className={classes.topNav}> 
+            <NavText _enabled={true} text={arr[0]}></NavText>
+            <NavText _enabled={false} text={arr[1]}></NavText>
+            <NavText _enabled={false} text={arr[2]}></NavText>
+            <NavText _enabled={false} text={arr[3]}></NavText>
+            <NavText _enabled={false} text={arr[4]}></NavText>
         </div> 
     ); 
 }; 
