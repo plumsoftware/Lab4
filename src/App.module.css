@@ -22,3 +22,12 @@
     height: 598px;
     margin-right: 100px;
 }
+
+.pochka {
+    width: 937.951px;
+    height: 671.352px;
+    position: absolute;
+    left: -20%;
+    top: 20%;
+    z-index: 0;
+}

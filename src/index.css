@@ -28,6 +28,9 @@
 
   --divider-color: #000;
 
+  --card-color: #FFF;
+  --card-shadow: rgba(229, 233, 246, 0.40);
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 

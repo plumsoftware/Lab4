@@ -1,4 +1,4 @@
-h1 {
+.h1 {
     color: var(--primary-text-color);
     font-size: 36px;
     font-style: normal;
@@ -6,16 +6,19 @@ h1 {
     line-height: 56px;
     margin-bottom: 26px;
     text-align: center;
+    z-index: 1;
+
 }
 
-h2 {
+.h2 {
     color: var(--secondary-text-color);
-    text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 30px;
     text-align: center;
+    z-index: 1;
+
 }
 
 .divider {
@@ -23,6 +26,8 @@ h2 {
     height: 2px;
     background-color: var(--divider-color);
     margin-bottom: 26px;
+    z-index: 1;
+
 }
 
 .container {
@@ -30,4 +35,12 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }

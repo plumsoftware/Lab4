@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import clsx from 'clsx'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import headerImage from './assets/header_illustration_1.svg'
 import classes from './App.module.css'
 import PrimaryButton from './components/primary-button'
 import TopNav from './components/top_nav/TopNav'
 import profileNav from './components/profile-nav'
+import pochka from './assets/pochka.svg'
 import ProfileNav from './components/profile-nav'
+import img1 from './assets/img1.svg'
 import HeaderText from './components/header-text'
 import OurServices from './components/our-services/OurServices'
+import Card from './components/card'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,23 @@ function App() {
         </div>
       </header>
 
-      <OurServices/>
+      <OurServices>
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+
+        <div className={classes.pochka}>
+          <img src={pochka}/>
+        </div>
+      </OurServices>
     </>
   )
 }

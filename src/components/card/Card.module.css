@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 350px;
+    height: 354px;
+    margin-right: 36px;
+    margin-bottom: 37px;
+    padding-left: 39px;
+    background: var(--card-color);
+    box-shadow: 10px 40px 50px 0px var(--card-shadow);
+    z-index: 1;
+}
+
+.h1 {
+    color: var(--primary-text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.h2 {
+    color: var(--secondary-text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.imgBox {
+    width: 91.978px;
+    height: 90px;
+}
