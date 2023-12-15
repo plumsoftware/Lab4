@@ -9,6 +9,7 @@ import TopNav from './components/top_nav/TopNav'
 import profileNav from './components/profile-nav'
 import ProfileNav from './components/profile-nav'
 import HeaderText from './components/header-text'
+import OurServices from './components/our-services/OurServices'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +33,8 @@ function App() {
             </div>
         </div>
       </header>
+
+      <OurServices/>
     </>
   )
 }
