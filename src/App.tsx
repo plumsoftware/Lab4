@@ -12,13 +12,18 @@ import ProfileNav from './components/profile-nav'
 import HeaderText from './components/header-text'
 import OurServices from './components/our-services/OurServices'
 import Card from './components/card'
+import PromoComponentOne from './components/promo-component-one'
+import PromoComponentTwo from './components/promo-component-two'
 
+import dots from './assets/dots.svg'
 import img1 from './assets/img1.svg'
 import img2 from './assets/img2.svg'
 import img3 from './assets/img3.svg'
 import img4 from './assets/img4.svg'
 import img5 from './assets/img5.svg'
 import img6 from './assets/img6.svg'
+import img7 from './assets/illustration_2.svg'
+import img8 from './assets/illustration_3.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,6 +46,8 @@ function App() {
               <img src={headerImage} alt='картинка 1'/>
             </div>
         </div>
+
+        <img className={classes.dotsRight} src={dots}/>
       </header>
 
       <OurServices>
@@ -62,6 +69,9 @@ function App() {
       </OurServices>
 
       <PrimaryOutlinedButton text='learn more'/>
+
+      <PromoComponentOne arr={['Leading healthcare providers', 'We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver', 'learn more']} img={img7}/>
+      <PromoComponentTwo arr={['Download our mobile apps', 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely', 'Download  🠗']} img={img8}/>
     </>
   )
 }
