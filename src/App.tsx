@@ -2,15 +2,23 @@ import { useState } from 'react'
 import clsx from 'clsx'
 import headerImage from './assets/header_illustration_1.svg'
 import classes from './App.module.css'
+
 import PrimaryButton from './components/primary-button'
+import PrimaryOutlinedButton from './components/primary-outlined-button'
 import TopNav from './components/top_nav/TopNav'
 import profileNav from './components/profile-nav'
 import pochka from './assets/pochka.svg'
 import ProfileNav from './components/profile-nav'
-import img1 from './assets/img1.svg'
 import HeaderText from './components/header-text'
 import OurServices from './components/our-services/OurServices'
 import Card from './components/card'
+
+import img1 from './assets/img1.svg'
+import img2 from './assets/img2.svg'
+import img3 from './assets/img3.svg'
+import img4 from './assets/img4.svg'
+import img5 from './assets/img5.svg'
+import img6 from './assets/img6.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,20 +46,22 @@ function App() {
       <OurServices>
         <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
 
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+        <Card title='Online pharmacy' subtitle="Buy  your medicines with our mobile application with a simple delivery system" logo={img2}/>
 
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+        <Card title='Consultation' subtitle="Free consultation with our trusted doctors and get the best recomendations" logo={img3}/>
 
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+        <Card title='Details info' subtitle="Free consultation with our trusted doctors and get the best recomendations" logo={img4}/>
 
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+        <Card title='Emergency care' subtitle="You can get 24/7 urgent care for yourself or your children and your lovely family" logo={img5}/>
 
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
+        <Card title='Tracking' subtitle="Track and save your medical history and health data " logo={img6}/>
 
         <div className={classes.pochka}>
           <img src={pochka}/>
         </div>
       </OurServices>
+
+      <PrimaryOutlinedButton text='learn more'/>
     </>
   )
 }

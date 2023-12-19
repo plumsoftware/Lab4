@@ -74,6 +74,13 @@ h3 {
   line-height: 1.1;
 } */
 
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 
 @media (prefers-color-scheme: light) {
