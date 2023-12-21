@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border-radius: 20px;
-    width: 350px;
-    height: 454px;
-    margin-right: 36px;
-    margin-bottom: 37px;
-    padding-left: 39px;
+    border-radius: 10%;
+    width: 25%;
+    height: 45%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
     background: var(--card-color);
-    box-shadow: 10px 40px 50px 0px var(--card-shadow);
+    box-shadow: 0px 0px 15px 10px var(--card-shadow);
     z-index: 1;
 }
 
@@ -19,27 +19,27 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 5,65%;
 }
 
 .h2 {
     color: var(--secondary-text-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 28px;
-    width: 266px;
+    width: 26,6%;
 }
 
 .imgBox {
-    padding-top: 54px;
-    padding-bottom: 22.41px;
+    padding-bottom: 10%;
     align-items: center;
     justify-content: center;
-    width: 61.857px;
-    height: 85px;
+    width: 10%;
+    height: 10%;
+    margin-top: 7%;
 }
 
 .card:hover {

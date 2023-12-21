@@ -4,10 +4,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
-    margin-bottom: 26px;
+    margin-bottom: 3%;
     text-align: center;
     z-index: 1;
-    margin-top: 192px;
+    margin-top: 10%;
 }
 
 .h2 {
@@ -22,10 +22,10 @@
 }
 
 .divider {
-    width: 56px;
+    width: 10%;
     height: 2px;
     background-color: var(--divider-color);
-    margin-bottom: 26px;
+    margin-bottom: 3%;
     z-index: 1;
 
 }
