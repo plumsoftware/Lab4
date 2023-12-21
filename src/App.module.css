@@ -33,9 +33,26 @@
 }
 
 .dotsRight {
-    width: 131.581px;
-    height: 115px;
+    width: 13%;
+    height: 11%;
     position: absolute;
     left: -9%;
     top: 10%
-  }
+}
+
+
+.dotsLeft {
+    width: 13%;
+    height: 11%;
+    position: absolute;
+    left: -9%;
+    bottom: 10%
+}
+
+.dotsRight2 {
+    width: 23%;
+    height: 21%;
+    position: absolute;
+    right: -6%;
+    top: 6%
+}

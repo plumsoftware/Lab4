@@ -8,8 +8,8 @@ interface ProfileNavProps {
 const ProfileNav: React.FC<ProfileNavProps> = ({name}) => { 
     return ( 
         <div className={classes.row}>
-            <h4>{name}</h4>
-            <h5>Health care</h5>
+            <h4 className={classes.h4}>{name}</h4>
+            <h5 className={classes.h5}>Health care</h5>
         </div>
     ); 
 };
