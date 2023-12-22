@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: left;
     margin-right: 12.7%;
+    padding: 0% 5%;
 }
 
 .row {
@@ -10,6 +11,7 @@
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 22%;
+    padding: 0% 5%;
 }
 
 h1 {

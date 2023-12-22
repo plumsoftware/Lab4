@@ -26,6 +26,7 @@ import img6 from './assets/img6.svg'
 import img7 from './assets/illustration_2.svg'
 import img8 from './assets/illustration_3.svg'
 import edward from './assets/edward.png'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -99,6 +100,10 @@ function App() {
       <Slider arr={customers} cardChildren={<img className={classes.dotsRight2} src={dots}/>}>
         <img className={classes.dotsLeft} src={dots}/>
       </Slider>
+
+      <footer>
+        <Footer/>
+      </footer>
     </>
   )
 }

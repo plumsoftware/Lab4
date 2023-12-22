@@ -1,7 +1,7 @@
 #root {
   margin: 0;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   text-align: center;
   width: 100%;
   background-color: var(--main-bg-color);
@@ -59,6 +59,7 @@ header{
   flex-direction: column;
   flex-wrap: nowrap;
   position: relative;
+  padding: 0% 5%;
 }
 
 /* h1 {

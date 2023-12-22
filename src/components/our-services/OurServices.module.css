@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     text-align: center;
     z-index: 1;
     margin-top: 10%;
@@ -18,7 +18,7 @@
     line-height: 30px;
     text-align: center;
     z-index: 1;
-
+    padding: 0% 5%;
 }
 
 .divider {
@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 .list {
