@@ -27,6 +27,10 @@ import img7 from './assets/illustration_2.svg'
 import img8 from './assets/illustration_3.svg'
 import edward from './assets/edward.png'
 import Footer from './components/footer'
+import More from './components/more-materials/MoreMaterial'
+import promo1 from './assets/promo1.png'
+import promo2 from './assets/promo2.png'
+import promo3 from './assets/promo3.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -49,6 +53,24 @@ function App() {
       job: 'Graphic Designer',
       review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       img: edward
+    },
+  ];
+
+  const promoes = [
+    {
+      title: 'Disease detection, check up in the laboratory',
+      subtitle: 'In this case, the role of the health laboratory is very important to do a disease detection...',
+      img: promo1
+    },
+    {
+      title: 'EHerbal medicines that are safe for consumption',
+      subtitle: 'Herbal medicine is very widely used at this time because of its very good for your health...',
+      img: promo2
+    },
+    {
+      title: 'Natural care for healthy facial skin',
+      subtitle: 'A healthy lifestyle should start from now and also for your skin health. There are some...',
+      img: promo3
     },
   ];
 
@@ -100,6 +122,10 @@ function App() {
       <Slider arr={customers} cardChildren={<img className={classes.dotsRight2} src={dots}/>}>
         <img className={classes.dotsLeft} src={dots}/>
       </Slider>
+
+      <More arr={promoes}/>
+
+      <PrimaryOutlinedButton text="learn more"></PrimaryOutlinedButton>
 
       <footer>
         <Footer/>
