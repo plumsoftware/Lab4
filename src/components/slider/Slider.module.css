@@ -1,9 +1,10 @@
 .arrow_button {
     background-color: transparent;
     color: var(--button-color);
-    width: 31px;
-    height: 20px;
+    width: 10%;
+    height: 10%;
     border: 0 solid transparent;
+    font-size: 25px;
 }
 
 .arrow_button:hover {

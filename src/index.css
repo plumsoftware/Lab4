@@ -84,7 +84,9 @@ h1, h2, h3, h4, h5, h6, button {
   font-family: 'Roboto', sans-serif;
 }
 
-
+footer {
+  margin-top: 10%;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
