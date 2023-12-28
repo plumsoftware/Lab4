@@ -85,19 +85,7 @@ function App() {
     <>
       <Header dots={_dots} headerImage={_headerImage}/>
 
-      <OurServices>
-        <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
-
-        <Card title='Online pharmacy' subtitle="Buy  your medicines with our mobile application with a simple delivery system" logo={img2}/>
-
-        <Card title='Consultation' subtitle="Free consultation with our trusted doctors and get the best recomendations" logo={img3}/>
-
-        <Card title='Details info' subtitle="Free consultation with our trusted doctors and get the best recomendations" logo={img4}/>
-
-        <Card title='Emergency care' subtitle="You can get 24/7 urgent care for yourself or your children and your lovely family" logo={img5}/>
-
-        <Card title='Tracking' subtitle="Track and save your medical history and health data " logo={img6}/>
-
+      <OurServices images={[img1, img2, img3, img4, img5, img6]}>
         <div className={classes.pochka}>
           <img src={pochka}/>
         </div>
