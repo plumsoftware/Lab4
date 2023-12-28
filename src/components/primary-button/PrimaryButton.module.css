@@ -1,0 +1,13 @@
+.primaryButton{
+    border-radius: 55px;
+    background: var(--button-color);
+    width: fit-content;
+    padding: 0.1% 4%;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--on-primary-color);
+    border: 0 solid transparent;
+}
