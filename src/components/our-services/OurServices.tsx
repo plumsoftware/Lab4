@@ -1,6 +1,6 @@
 import classes from './OurServices.module.css' 
 import React from 'react' 
-import Divider from '../Divider'
+import Divider from '../divider'
  
 interface OurServicesProps {
     children: React.ReactNode

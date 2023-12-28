@@ -1,7 +1,7 @@
 import classes from './PromoComponentTwo.module.css' 
 import React from 'react' 
 import PrimaryOutlinedButton from '../primary-outlined-button';
-import Divider from '../Divider'
+import Divider from '../divider'
  
 interface PromoComponentTwoProps {
     arr: string[];

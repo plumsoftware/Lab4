@@ -1,22 +1,14 @@
 import { useState } from 'react'
-import clsx from 'clsx'
-import headerImage from './assets/header_illustration_1.svg'
 import classes from './App.module.css'
-
-import PrimaryButton from './components/primary-button'
 import PrimaryOutlinedButton from './components/primary-outlined-button'
-import TopNav from './components/top_nav/TopNav'
-import profileNav from './components/profile-nav'
 import pochka from './assets/pochka.svg'
-import ProfileNav from './components/profile-nav'
-import HeaderText from './components/header-text'
 import OurServices from './components/our-services/OurServices'
 import Card from './components/card'
 import PromoComponentOne from './components/promo-component-one'
 import PromoComponentTwo from './components/promo-component-two'
 import Slider from './components/slider'
 
-import dots from './assets/dots.svg'
+import _dots from './assets/dots.svg'
 import img1 from './assets/img1.svg'
 import img2 from './assets/img2.svg'
 import img3 from './assets/img3.svg'
@@ -31,6 +23,8 @@ import More from './components/more-materials/MoreMaterial'
 import promo1 from './assets/promo1.png'
 import promo2 from './assets/promo2.png'
 import promo3 from './assets/promo3.png'
+import Header from './components/header'
+import _headerImage from './assets/header_illustration_1.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -76,25 +70,7 @@ function App() {
 
   return (
     <>
-      <header className={classes.header}>
-
-        <div className={classes.headerRow}>
-          <ProfileNav name='T'></ProfileNav>
-          <TopNav arr={['Home', 'Find a doctor', 'Apps', 'Testimonials', 'About us']}></TopNav>
-        </div>
-
-        <div className={classes.headerRow}>
-          <HeaderText arr={[
-            'Virtual healthcare for you', 
-            'Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone', 
-            'Consult today']}/>
-            <div className={classes.imgBox}>
-              <img src={headerImage} alt='картинка 1'/>
-            </div>
-        </div>
-
-        <img className={classes.dotsRight} src={dots}/>
-      </header>
+      <Header dots={_dots} headerImage={_headerImage}/>
 
       <OurServices>
         <Card title='Search doctor' subtitle="Choose your doctor from thousands of specialist, general, and trusted hospitals" logo={img1}/>
@@ -119,17 +95,15 @@ function App() {
       <PromoComponentOne arr={['Leading healthcare providers', 'We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver', 'learn more']} img={img7}/>
       <PromoComponentTwo arr={['Download our mobile apps', 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely', 'Download  🠗']} img={img8}/>
 
-      <Slider arr={customers} cardChildren={<img className={classes.dotsRight2} src={dots}/>}>
-        <img className={classes.dotsLeft} src={dots}/>
+      <Slider arr={customers} cardChildren={<img className={classes.dotsRight2} src={_dots}/>}>
+        <img className={classes.dotsLeft} src={_dots}/>
       </Slider>
 
       <More arr={promoes}/>
 
       <PrimaryOutlinedButton text="learn more"></PrimaryOutlinedButton>
 
-      <footer>
-        <Footer/>
-      </footer>
+      <Footer/>
     </>
   )
 }

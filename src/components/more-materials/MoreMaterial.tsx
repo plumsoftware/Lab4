@@ -1,6 +1,6 @@
 import classes from './MoreMaterial.module.css' 
 import React from 'react' 
-import Divider from '../Divider';
+import Divider from '../divider';
  
 interface PromoItem {
     title: string;
