@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import classes from './App.module.css'
 import PrimaryOutlinedButton from './components/primary-outlined-button'
 import pochka from './assets/pochka.svg'
@@ -27,7 +26,6 @@ import Header from './components/header'
 import _headerImage from './assets/header_illustration_1.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const customers = [
     {
@@ -66,6 +64,21 @@ function App() {
       subtitle: 'A healthy lifestyle should start from now and also for your skin health. There are some...',
       img: promo3
     },
+    {
+      title: 'Disease detection, check up in the laboratory',
+      subtitle: 'In this case, the role of the health laboratory is very important to do a disease detection...',
+      img: promo1
+    },
+    {
+      title: 'EHerbal medicines that are safe for consumption',
+      subtitle: 'Herbal medicine is very widely used at this time because of its very good for your health...',
+      img: promo2
+    },
+    {
+      title: 'Natural care for healthy facial skin',
+      subtitle: 'A healthy lifestyle should start from now and also for your skin health. There are some...',
+      img: promo3
+    }
   ];
 
   return (
@@ -99,9 +112,7 @@ function App() {
         <img className={classes.dotsLeft} src={_dots}/>
       </Slider>
 
-      <More arr={promoes}/>
-
-      <PrimaryOutlinedButton text="learn more"></PrimaryOutlinedButton>
+      <More arr={promoes} dots={_dots}/>
 
       <Footer/>
     </>

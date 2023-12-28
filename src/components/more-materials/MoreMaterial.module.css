@@ -54,6 +54,8 @@
     padding: 0% 10%;
     align-items: center;
     justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 .promo {
@@ -88,4 +90,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.dotsLeft {
+    width: 17%;
+    height: 15%;
+    position: absolute;
+    left: 6%;
+    top: -5%
 }

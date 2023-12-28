@@ -3,11 +3,12 @@ import React from 'react'
  
 interface PrimaryOutlinedButtonProps {
     text: string;
+    onClick?: () => void;
 }
 
-const PrimaryOutlinedButton: React.FC<PrimaryOutlinedButtonProps> = ({text}) => { 
+const PrimaryOutlinedButton: React.FC<PrimaryOutlinedButtonProps> = ({text, onClick }) => { 
     return ( 
-        <button className={classes.primaryOutlinedButton}> 
+        <button className={classes.primaryOutlinedButton} onClick={onClick}> 
             {text}
         </button> 
     ); 
