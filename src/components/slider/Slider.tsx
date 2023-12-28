@@ -63,7 +63,7 @@ const Slider: React.FC<SliderProps> = ({arr, children, cardChildren}) => {
                     ➜
                 </button>
                 
-                {arr.map((item, index) => (
+                {arr.map((_, index) => (
                     <div
                         key={index}
                         className={`${classes.dot} ${index === currentIndex ? classes.active_dot : ''}`}

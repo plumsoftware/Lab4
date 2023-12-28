@@ -30,7 +30,7 @@ const More: React.FC<MoreProps> = ( {arr, dots} ) => {
 
             <div className={classes.row}>
                 <img className={classes.dotsLeft} src={dots} />
-                {arr.slice(0, expanded ? arr.length : 3).map((item, index) => (
+                {arr.slice(0, expanded ? arr.length : 3).map((_, index) => (
                 <div key={index} className={classes.cardMaterial}>
                     <img className={classes.promo} src={arr[index].img} />
                     <h1 className={classes.h1}>{arr[index].title}</h1>
